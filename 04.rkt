@@ -290,6 +290,7 @@
 (check-equal? (all-nums '(5 pears 6 prunes dates))
               '(5 6))
 
+(provide eqan?)
 ; Atom Atom -> Boolean
 ; produce #t if two provided atoms are equal
 ;(define (eqan? a1 a2) #f) ;stub
