@@ -1,0 +1,10 @@
+{
+  "name": "Little Schemer env",
+  "dockerFile": "Dockerfile",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "evzen-wybitul.magic-racket"
+  ]
+}
