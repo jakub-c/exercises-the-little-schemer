@@ -48,7 +48,7 @@
            (cons (first (first los))
                  (firsts (rest los)))])))
 
-
+(provide firsts)
 (check-equal? (firsts '()) '())
 (check-equal? (firsts '((a b) (c d) (e f)))
               '(a c e))
@@ -120,6 +120,8 @@
                       '(banana ice cream with chocolate topping))
               '(vanilla ice cream with chocolate topping))
 
+
+(provide multirember)
 
 ; Atom [List-of Atom] -> [List-of Atom]
 ; return lat with all occurrences of a removed.
